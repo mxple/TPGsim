@@ -12,6 +12,7 @@ Screen rotate is available as well as camera offset. All controls are default fo
 
 ## FAQ
 Q: I don't like the default skin, will you add more skin options?
+
 A: naur.
 
 ## Contributing
