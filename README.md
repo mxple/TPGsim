@@ -17,7 +17,9 @@ You can contribute to this project by opening pull requests! Opening issues or d
  * I'm busy with college apps at the moment so nothing major will be changed until september.
  
  [ ] Hard mode (exposed debuff)
+ 
  [ ] More variance and control in difficulty and score
+ 
  [ ] QoL menu screen (zoom, rotate speed, etc)
  
  ## Gallery
