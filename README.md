@@ -16,7 +16,7 @@ Q: I don't like the default skin, will you add more skin options?
 A: naur.
 
 ## Contributing
-You can contribute to this project by opening pull requests! Opening issues or dming me (RIN#7777) about bugs is also appreciated. Lastly, you can gimme in-game donations of pots and feed power to RIN :)
+You can contribute to this project by opening pull requests! Opening issues or dming me (RIN#7777) about bugs is also appreciated. Lastly, you can gimme in-game donations of pots and feed power. IGN: RIN <3
 
 ## TODO List
  * I'm busy with college apps at the moment so nothing major will be changed until september.
