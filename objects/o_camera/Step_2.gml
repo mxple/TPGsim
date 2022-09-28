@@ -1,6 +1,11 @@
-camera_set_view_size(VIEW, view_width, view_height);
+camera_set_view_size(VIEW, view_widths[zoom], view_heights[zoom]);
 
 check_input();
+
+// zoom
+zoom = clamp(zoom + (input.zoom_in-input.zoom_out), 0, 2);
+surface_resize(application_surface, view_widths[zoom] * window_scale, view_heights[zoom] * window_scale);
+
 // target position calculation
 if instance_exists(follow_target) {
 	target_x = follow_target.x;

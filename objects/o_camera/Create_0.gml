@@ -1,13 +1,14 @@
 // camera variables
-view_width = 184;
-view_height= 144;
+view_widths = [18.23 * 8, 23.5 * 8, 31 * 8];
+view_heights= [12.8 * 8, 16.5 * 8, 21.77 *8];
+zoom = 1;
 
 window_scale = 7;
 
-window_set_size(view_width * window_scale, view_height * window_scale);
+window_set_size(1288, 1008);
 alarm[0] = 1;
 
-surface_resize(application_surface, view_width * window_scale, view_height * window_scale);
+surface_resize(application_surface, view_widths[zoom] * window_scale, view_heights[zoom] * window_scale);
 
 follow_target = o_player;
 current_x = 0;
