@@ -7,7 +7,7 @@ In addition, there is both a solo mode and a group mode. In solo mode, the shade
 Go to [releases](https://github.com/Mxple/TPGsim/releases) and download the latest version for your OS. Mac and Linux coming soon! If you wish to build from the source code, download this repository as a zip, and use Gamemaker Studio 2.3+ to compile the project from the yyz.
 
 ## Tips
-Hold shift while clicking to increment stats quicker. There is no end to this simulator - if you die, the game just restarts. You can judge whether you finished a patience by counting the number of drags. 4 for normal, 5 for hard mode.
+Hold shift while clicking to increment stats quicker. There is no end to this simulator - if you die, the game just restarts. You can judge whether you finished a patience by counting the number of drags. 3 for normal, 4 for hard mode.
 Screen rotate is available as well as camera offset. All controls are default for now. QOL changes may or may not be expected.
 
 ## FAQ
