@@ -1,0 +1,1 @@
+effect = function() {global.init_solo = not global.init_solo;}

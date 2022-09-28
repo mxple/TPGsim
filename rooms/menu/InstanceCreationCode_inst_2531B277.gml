@@ -1,0 +1,1 @@
+effect = function() {o_menu.spd += 1};

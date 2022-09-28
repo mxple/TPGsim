@@ -1,0 +1,1 @@
+effect = function() {global.init_hp -= 10};

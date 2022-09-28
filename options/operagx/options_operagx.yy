@@ -1,0 +1,18 @@
+{
+  "resourceType": "GMOperaGXOptions",
+  "resourceVersion": "1.0",
+  "name": "operagx",
+  "option_operagx_version": "0.0.0.0",
+  "option_operagx_next_version": "1.0.0.0",
+  "option_operagx_game_name": "TPGsim",
+  "option_operagx_interpolate_pixels": false,
+  "option_operagx_scale": 0,
+  "option_operagx_texture_page": "2048x2048",
+  "option_operagx_display_cursor": true,
+  "option_operagx_guid": "c3eb3bb8-3421-40dd-a62b-b342c4a45c15",
+  "option_operagx_team_name": "(96b64492-86f9-48dc-8222-317eda8ffbdb) studio",
+  "option_operagx_team_id": "96b64492-86f9-48dc-8222-317eda8ffbdb",
+  "option_operagx_editUrl": "https://create.gx.games/game/c3eb3bb8-3421-40dd-a62b-b342c4a45c15/edit",
+  "option_operagx_internalShareUrl": "",
+  "option_operagx_publicShareUrl": "",
+}

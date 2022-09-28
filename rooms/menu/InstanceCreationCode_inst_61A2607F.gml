@@ -1,0 +1,1 @@
+effect = function() {global.init_def += 1};
