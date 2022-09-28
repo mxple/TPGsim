@@ -10,6 +10,13 @@ if input.hdir != 0 or input.vdir != 0 {
 	facing = floor(_wasd_direction / 90);
 }
 
+// void water
+if place_meeting(x,y,o_void_water) {
+	vel	/= 3;
+	hp -= 2;
+}
+
+
 // move in the x-direction
 hsp = lengthdir_x(vel, dir);
 hsp_remaining = abs(hsp);
@@ -58,5 +65,3 @@ flash = max(0, flash - 1);
 if hp < 0 {
 	game_restart();	
 }
-
-print(spd,walk_speed);

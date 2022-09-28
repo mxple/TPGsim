@@ -17,7 +17,7 @@ ogy = y;
 state = SHADE_STATES.RESET;
 
 // movement
-chase_spd = 8 * (2) / 60;
+chase_spd = 8 * (1.8) / 60;
 reset_spd = 8 * (2.5) / 60;
 
 targetx = x;
