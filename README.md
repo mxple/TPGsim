@@ -10,6 +10,10 @@ Go to [releases](https://github.com/Mxple/TPGsim/releases) and download the late
 Hold shift while clicking to increment stats quicker. There is no end to this simulator - if you die, the game just restarts. You can judge whether you finished a patience by counting the number of drags. 4 for normal, 5 for hard mode.
 Screen rotate is available as well as camera offset. All controls are default for now. QOL changes may or may not be expected.
 
+## FAQ
+Q: I don't like the default skin, will you add more skin options?
+A: naur.
+
 ## Contributing
 You can contribute to this project by opening pull requests! Opening issues or dming me (RIN#7777) about bugs is also appreciated. Lastly, you can gimme in-game donations of pots and feed power to RIN :)
 
