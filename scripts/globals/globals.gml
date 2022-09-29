@@ -16,3 +16,10 @@ enum SHADE_STATES {
 	CHASING,
 	RESET
 }
+
+enum MODES {
+	SOLO,
+	RAILS,
+	GROUP
+	
+}

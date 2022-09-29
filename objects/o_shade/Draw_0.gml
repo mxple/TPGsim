@@ -1,3 +1,4 @@
+if !instance_place(x,y,o_fog) exit;
 shader_set(shd_pixel_outline);
 var texture = sprite_get_texture(sprite_index, image_index);
 var pixelH = texture_get_texel_height(texture);

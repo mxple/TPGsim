@@ -1,1 +1,1 @@
-effect = function() {global.init_solo = not global.init_solo;}
+effect = function() {global.mode = (global.mode + 1) mod 3;}

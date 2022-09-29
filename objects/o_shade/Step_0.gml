@@ -1,10 +1,12 @@
-if o_patience.solo_mode {
+if global.mode != MODES.RAILS {
 	switch state {
 		case SHADE_STATES.CHASING:
-			targetx = o_player.x;
-			targety = o_player.y;
+			targetx = instance_nearest(x,y, o_player).x;
+			targety = instance_nearest(x,y, o_player).y;
+			
+			print(shade_id, targetx, targety);
 		
-			if distance_to_object(o_player) < 100 {
+			if distance_to_point(targetx,targety) < 100 {
 				var xmove = lengthdir_x(chase_spd, point_direction(x,y,targetx,targety));
 				x += xmove;
 				var ymove = lengthdir_y(chase_spd, point_direction(x,y,targetx,targety));
@@ -31,7 +33,7 @@ if o_patience.solo_mode {
 	switch state {
 		case SHADE_STATES.CHASING:
 			if o_patience.frames mod 30 == 0 {
-				if shade_id == 0 {
+				if shade_id == 2 {
 					if num_resets mod 2 == 1 {
 						targetx = x+20;
 						targety = random_range(y-10, y+10);
@@ -39,7 +41,7 @@ if o_patience.solo_mode {
 						targetx = random_range(x-10, x+10);
 						targety = y+20;
 					}
-				} else if shade_id == 1 {
+				} else if shade_id == 3 {
 					if num_resets mod 2 == 1 {
 						targetx = random_range(x-10, x+10);
 						targety = y+20
@@ -47,7 +49,7 @@ if o_patience.solo_mode {
 						targetx = x-20;
 						targety = random_range(y-10, y+10);
 					}
-				} else if shade_id == 2 {
+				} else if shade_id == 1 {
 					if num_resets mod 2 == 1 {
 						targetx = random_range(x-10, x+10);
 						targety = y-20
@@ -55,7 +57,7 @@ if o_patience.solo_mode {
 						targetx = x+20;
 						targety = random_range(y-10, y+10);
 					}
-				} else if shade_id == 3 {
+				} else if shade_id == 0 {
 					if num_resets mod 2 == 1 {
 						targetx = x-20;
 						targety = random_range(y-10, y+10);

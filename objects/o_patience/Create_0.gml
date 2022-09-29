@@ -1,4 +1,3 @@
-solo_mode = true;
 difficulty = 5;
 
 // tendrils

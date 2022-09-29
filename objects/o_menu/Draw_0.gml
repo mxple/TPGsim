@@ -10,7 +10,10 @@ draw_text_ext(455,695,string(global.init_def),1,1000);
 draw_text_ext(455,836,string(global.init_lvl),1,1000);
 
 var _mode = "solo";
-if global.init_solo == false {
+if global.mode == MODES.GROUP {
 	_mode = "group";
+} else if global.mode == MODES.RAILS {
+	_mode = "rails";
 }
+
 draw_text_ext_transformed(1055,350,string(_mode),1,1000,1.4,1.4,0);
