@@ -6,7 +6,7 @@ shoot = function(_shot) {
 			speed = .5;
 			damage = _shot.damage;
 			lifetime = 260;
-			condition = _shot.damage;
+			condition = _shot.condition;
 		}
 	}
 }

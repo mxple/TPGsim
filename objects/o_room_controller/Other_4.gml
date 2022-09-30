@@ -10,7 +10,7 @@ if global.mode == MODES.GROUP {
 		spd = global.init_spd;
 		walk_speed = 8 * (4 + 5.6 * (global.init_spd / 75)) / 60;
 	}
-	with instance_create_layer(129,64,"player",o_ghost_player) {
+	with instance_create_layer(139,64,"player",o_ghost_player) {
 		angle = 180;
 		spd = global.init_spd;
 		walk_speed = 8 * (4 + 5.6 * (global.init_spd / 75)) / 60;
@@ -26,4 +26,4 @@ with instance_create_layer(0,0,"controllers",o_patience) {
 }
 instance_create_layer(0,0,"controllers",o_fog);
 
-game_set_speed(30,gamespeed_fps);
+global.game_end = false;

@@ -1,0 +1,1 @@
+hp = clamp(hp, -1, infinity);

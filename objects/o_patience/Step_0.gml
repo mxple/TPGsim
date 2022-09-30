@@ -27,4 +27,6 @@ if reset_delay == 0 {
 
 shoot_delay -= 1;
 reset_delay -= 1;
-frames += 1;
+if !global.game_end {
+	frames += 1;
+}

@@ -1,3 +1,9 @@
+// death
+if hp < 0 {
+	global.game_end = true;
+	exit;
+}
+
 check_input();
 
 // find direction of movement
@@ -15,7 +21,6 @@ if place_meeting(x,y,o_void_water) {
 	vel	/= 3;
 	hp -= 2;
 }
-
 
 // move in the x-direction
 hsp = lengthdir_x(vel, dir);
@@ -54,14 +59,11 @@ if !place_meeting(x,y+sign(vsp)*vsp_remaining,o_wall) {
 // bleeding and curse
 if bleed > 0 {
 	bleed = max(0, bleed - 1);
-	hp -= 0.3
+	if hp > 1 {
+		hp -= 0.3;
+		o_gui.bleed_dmg += 0.3;
+	}
 }
 
 curse = max(0, curse - 1);
 flash = max(0, flash - 1);
-
-
-// death
-if hp < 0 {
-	game_restart();	
-}
