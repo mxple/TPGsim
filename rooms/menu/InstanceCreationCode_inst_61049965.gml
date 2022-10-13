@@ -1,0 +1,1 @@
+effect = function() {global.hard_mode = !global.hard_mode}

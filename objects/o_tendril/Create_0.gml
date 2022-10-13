@@ -40,11 +40,17 @@ shoot = function() {
 		var _shot = s_arrow_blue;
 		var _condition = CONDITIONS.PIERCE;
 		var _damage = 45;
+		if global.hard_mode {
+			_damage += 20;
+		}
 		
 	} else {
 		var _shot = s_arrow_red;
 		var _condition = CONDITIONS.BLEED;
 		var _damage = 20;
+		if global.hard_mode {
+			_damage += 20;
+		}
 	}
 
 	// shoot

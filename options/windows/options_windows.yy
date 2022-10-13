@@ -4,7 +4,7 @@
   "name": "Windows",
   "option_windows_display_name": "TPG Simulator",
   "option_windows_executable_name": "TPG.exe",
-  "option_windows_version": "1.2.1.0",
+  "option_windows_version": "1.2.2.0",
   "option_windows_company_info": "RIN",
   "option_windows_product_info": "",
   "option_windows_copyright_info": "(c) 2022 MxpleRIN",

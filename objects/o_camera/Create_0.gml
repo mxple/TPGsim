@@ -19,7 +19,28 @@ rotation = 0;
 offset = false;
 
 // adjustable values
-rotation_speed = 2;
+rotation_speeds = [2,3,4];
+
+
+// controls
+
+_rotate_right = "E";
+_rotate_left = "Q";
+_reset_rot = "C";
+_reset_all = "Z";
+_offset = "X";
+_zoom_in = "P";
+_zoom_out = "O";
+
+ini_open("./controls.ini");
+_rotate_right = ini_read_string("camera","rotate right","E");
+_rotate_left = ini_read_string("camera","rotate left","Q");
+_reset_rot = ini_read_string("camera","reset rotation","C");
+_reset_all = ini_read_string("camera","reset to default camera angle","Z");
+_offset = ini_read_string("camera","toggle centering on player","X");
+_zoom_in = ini_read_string("camera","zoom in","P");
+_zoom_out = ini_read_string("camera","zoom out","O");
+ini_close();
 
 event_user(0);
 input = {};

@@ -1,4 +1,4 @@
-var _add_delay = (40 - 4 * difficulty)
+var _add_delay = (31 - 3 * difficulty)
 alarm[0] = irandom_range(5 + _add_delay, 20 + _add_delay);
 
 // tendril shooting

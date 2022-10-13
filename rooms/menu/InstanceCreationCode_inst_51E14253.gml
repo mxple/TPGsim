@@ -1,0 +1,1 @@
+effect = function() {global.rspeed = (global.rspeed + 1) mod 3;}

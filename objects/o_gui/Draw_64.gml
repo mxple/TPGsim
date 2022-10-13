@@ -8,7 +8,8 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 var c = c_white;
-if o_patience.frames > 1800 c = c_lime;
+if o_patience.frames > 1800 and !global.hard_mode c = c_lime;
+if o_patience.frames > 2400 and global.hard_mode c = c_lime;
 
 draw_text_ext_transformed_color(10,10,"score: "+string(o_patience.frames),1,1000,.5,.5,0,c,c,c,c,1);
 draw_text_ext_transformed(10,40,"fps: "+string(fps),1,1000,.5,.5,0);

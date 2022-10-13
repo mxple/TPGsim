@@ -5,15 +5,24 @@ tendril_count = instance_number(o_tendril);
 alarm[0] = 1;
 
 // shades 
+
+var _dmg = 70;
+if global.hard_mode {
+	_dmg += 20;
+}
 blue_spikes = {
 	sprite : s_spike_blue,
-	damage : 70,
+	damage : _dmg,
 	condition : CONDITIONS.PIERCE
 }
 
+var _dmg = 100;
+if global.hard_mode {
+	_dmg += 20;
+}
 red_spikes = {
 	sprite : s_spike_red,
-	damage : 100,
+	damage : _dmg,
 	condition : CONDITIONS.CURSE
 }
 

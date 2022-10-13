@@ -13,7 +13,7 @@ if instance_exists(follow_target) {
 }
 
 // rotation calculations
-rotation += rotation_speed*input.rotate;
+rotation += rotation_speeds[global.rspeed]*input.rotate;
 if input.reset_rotation or input.reset_all {
 	rotation = 0;
 }

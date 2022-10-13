@@ -21,6 +21,19 @@ walk_speed = 8 * (4 + 5.6 * (spd / 75)) / 60;
 hp = 1000;
 def = 40;
 
+// controls
+_right = "D";
+_left = "A";
+_down = "S";
+_up = "W";
+
+ini_open("./controls.ini");
+_right = ini_read_string("player","right","D");
+_left = ini_read_string("player","left","A");
+_down = ini_read_string("player","down","S");
+_up = ini_read_string("player","up","W");
+ini_close();
+
 event_user(0);
 input = {};
 check_input();
