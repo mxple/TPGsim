@@ -23,18 +23,6 @@ Screen rotate is available as well as camera offset. All controls are default fo
 Q: I don't like the default skin, will you add more skin options?
 
 A: naur.
-
-## Contributing
-You can contribute to this project by opening pull requests! Opening issues or dming me (RIN#7777) about bugs is also appreciated. Lastly, you can gimme in-game donations of pots and feed power. IGN: RIN <3
-
-## TODO List
- * I'm busy with college apps at the moment so nothing major will be changed until september.
- 
- [ ] Hard mode (exposed debuff)
- 
- [ ] More variance and control in difficulty and score
- 
- [ ] QoL menu screen (zoom, rotate speed, etc)
  
  ## Gallery
  ![image](https://user-images.githubusercontent.com/83033020/192682454-3870b5c0-5119-448f-9e25-9f58b550bbc2.png)
