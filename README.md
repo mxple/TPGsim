@@ -1,4 +1,4 @@
-# TPGsim
+# TPGsim (no longer maintained)
 This is a practice tool for RotMG Shatter's "Test of Patience" phase. Speed, health points, defense, and difficulty are all adjustable. 
 
 In addition, there is both a solo mode and a group mode. In solo mode, the shades will aggro the player while in group mode, the shades will move as if being dragged in a large raid.
